@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(117, 168, 250), rgb(15, 237, 237), rgb(244, 18, 116), rgb(219, 117, 15));
+
+}
+
+.container{
+    border: 2px solid white;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.container h1{
+    margin-top: 40px ;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container .input-box{
+
+    margin-top: 20px;
+}
+.container .input-box input{
+    height: 40px;
+    margin: 20px 0px 0px 30px;
+    width: 280px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.container .input-box input:hover{
+   transform: scale(0.3px);
+}
+.container .input-box i{
+    font-size: 1.1rem;
+    position: relative;
+    right: 30px;
+}
+
+.forgot{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.forgot a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.forgot a:hover{
+    color:blue;
+    font-weight: 600;
+}
+
+.btn{
+    height: 40px;
+    margin: 30px 0px 30px 30px;
+    width: 280px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(70, 21, 186);
+    transform: scale(0.3px);
+    color: white;
+}
